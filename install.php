@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Open a connection via PDO to create a
- * new database and table with structure.
+ * Abrimos una conexión via PDO para crear
+ * una nueva database y tablas con datos de inicio.
  *
  */
 
@@ -13,7 +13,7 @@ try {
     $sql = file_get_contents("data/init.sql");
     $connection->exec($sql);
 
-    echo "Base de datos de cine con tabla películas creada con éxtio.";
+    echo "Base de datos de cine con tabla películas creada con éxito.";
 } catch (PDOException $error) {
     echo $sql . "<br>" . $error->getMessage();
 }

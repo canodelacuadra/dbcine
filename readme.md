@@ -4,4 +4,6 @@ Crearíamos una  aplicación CRUD que  será una base de datos de películas de 
 * Conéctarse a una base de datos MySQL con PHP usando el método PDO (PHP Data Objects) .
 * Crear un script de instalación que cree una nueva base de datos y una nueva tabla con estructura.
 * Agregar entradas a una base de datos utilizando un formulario HTML y declaraciones preparadas .
-* Filtre las entradas de la base de datos e imprímirlas en un documento HTML mediante una tabla.
+* Filtrar las entradas de la base de datos e imprímirlas en un documento HTML mediante una tabla.
+## ejemplos
+* Lógica votaciones en parte db (trigger): http://joseantoniosaiz.com/sistema-de-puntuacion-opiniones-cinco-estrellas-con-mysql/
